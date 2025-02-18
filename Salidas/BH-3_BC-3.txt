@@ -1,0 +1,37 @@
+
+R5: Si h2 y h8 Entonces h1, FC=-0.5
+	(R5):Antecedente h8 verificado
+R1: Si h4 Entonces h2, FC=0.5
+	(R1):Antecedente h4 verificado
+	(R1):Caso 1 aplicado, FC = 0
+	(R1):Caso 3 aplicado, FC = 0
+R2: Si h5 Entonces h2, FC=0.9
+	(R2):Antecedente h5 verificado
+	(R2):Caso 1 aplicado, FC = 1
+	(R2):Caso 3 aplicado, FC = 0.9
+Caso 2 entre FC=0.9 y FC=0 aplicado, FC=0.9
+	(R5):Antecedente h2 verificado
+	(R5):Caso 1 aplicado, FC = -1
+	(R5):Caso 3 aplicado, FC = -0
+R6: Si h3 Entonces h1, FC=0.5
+R3: Si h6 Entonces h3, FC=0.5
+	(R3):Antecedente h6 verificado
+	(R3):Caso 1 aplicado, FC = 1
+	(R3):Caso 3 aplicado, FC = 0.5
+R4: Si h7 Entonces h3, FC=1
+	(R4):Antecedente h7 verificado
+	(R4):Caso 1 aplicado, FC = 0
+	(R4):Caso 3 aplicado, FC = 0
+Caso 2 entre FC=0 y FC=0.5 aplicado, FC=0.5
+	(R6):Antecedente h3 verificado
+	(R6):Caso 1 aplicado, FC = 0.5
+	(R6):Caso 3 aplicado, FC = 0.25
+R7: Si h9 o h10 Entonces h1, FC=0.7
+	(R7):Antecedente h10 verificado
+	(R7):Antecedente h9 verificado
+	(R7):Caso 1 aplicado, FC = 0.4
+	(R7):Caso 3 aplicado, FC = 0.28
+Caso 2 entre FC=0.28 y FC=0.25 aplicado, FC=0.46
+Caso 2 entre FC=0.46 y FC=-0 aplicado, FC=0.46
+
+Objetivo h1, FC=0.46

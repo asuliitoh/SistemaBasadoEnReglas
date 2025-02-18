@@ -1,0 +1,9 @@
+6
+h5, FC=1
+h6, FC=1
+h7, FC=1
+h8, FC=0.2
+h9, FC=1
+h10, FC=-0.4
+Objetivo
+h1

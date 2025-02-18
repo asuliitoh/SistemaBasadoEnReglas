@@ -1,0 +1,8 @@
+7
+R1: Si h5 Entonces h2, FC=0.6
+R2: Si h2 y h6 Entonces h3, FC=-0.5
+R3: Si h7 Entonces h3, FC=-0.7
+R4: Si h8 o h9 Entonces h4, FC=0.45
+R5: Si h10 Entonces h11, FC=0.4
+R6: Si h4 Entonces h11, FC=-0.3
+R7: Si h3 y h11 Entonces h1, FC=0.7

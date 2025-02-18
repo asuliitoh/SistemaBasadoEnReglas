@@ -1,0 +1,10 @@
+7
+h1, FC=1
+h2, FC=1
+h3, FC=1
+h4, FC=0.65
+h5, FC=0.35
+h6, FC=1
+h7, FC=1
+Objetivo
+h8
